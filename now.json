@@ -1,0 +1,33 @@
+{
+	"name": "now-env-vars",
+	"version": 2,
+	"builds": [
+		{
+			"src": "package.json",
+			"use": "@now/next"
+		}
+	],
+	"env": {
+		"NEO4J_URI": "bolt://100.26.231.187:33100",
+		"NEO4J_USER": "neo4j",
+		"NEO4J_PASSWORD": "threader-exception-talker",
+		"FIREBASE_ADMIN_PRIVATE_KEY": "@firebase-admin-private-key",
+		"FIREBASE_ADMIN_PROJECT_ID": "@firebase-admin-project-id",
+		"FIREBASE_ADMIN_CLIENT_EMAIL": "@firebase-admin-client-email"
+	},
+	"build": {
+		"env": {
+			"GRAPHQL_URI": "",
+			"REFRESH_TOKEN_URL": "",
+			"FIREBASE_API_KEY": "",
+			"FIREBASE_AUTH_DOMAIN": "",
+			"FIREBASE_DATABASE_URL": "",
+			"FIREBASE_PROJECT_ID": "",
+			"FIREBASE_STORAGE_BUCKET": "",
+			"FIREBASE_MESSAGING_SENDER_ID": "",
+			"FIREBASE_APP_ID": "",
+			"FIREBASE_AUTH_REDIRECT_URL": "",
+			"FIREBASE_REFRESH_TOKEN_URL": ""
+		}
+	}
+}

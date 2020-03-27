@@ -1,0 +1,42 @@
+{
+	"name": "nextjs-apollo-neo4j-firebase-starter",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"@apollo/client": "^3.0.0-beta.41",
+		"@apollo/link-context": "^2.0.0-beta.3",
+		"@apollo/link-error": "^2.0.0-beta.3",
+		"@apollo/react-ssr": "^4.0.0-beta.1",
+		"apollo-errors": "^1.9.0",
+		"apollo-server-micro": "^2.11.0",
+		"cookie": "^0.4.0",
+		"dayjs": "^1.8.21",
+		"dotenv": "^8.2.0",
+		"firebase": "^7.9.0",
+		"firebase-admin": "^8.9.2",
+		"graphql": "^14.5.8",
+		"graphql-tools": "^4.0.6",
+		"isomorphic-unfetch": "^3.0.0",
+		"js-cookie": "^2.2.1",
+		"neo4j-driver": "^4.0.1",
+		"neo4j-graphql-js": "^2.13.0",
+		"next": "^9.3.1",
+		"next-cookies": "^2.0.3",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-hook-form": "^4.9.7",
+		"react-is": "^16.12.0",
+		"styled-components": "^4.4.1",
+		"yup": "^0.28.3"
+	},
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"eslint-plugin-react": "^7.19.0",
+		"eslint-plugin-react-hooks": "^2.5.0"
+	}
+}
